@@ -1,6 +1,6 @@
 # TracimDaemonSDK
 
-An SDK for the [TracimDaemon](https://github.com/Millefeuille42/TracimDaemon) project
+A python port for the TracimDaemonSDK, an SDK for the [TracimDaemon](https://github.com/Millefeuille42/TracimDaemon) project
 
 ## Usage
 
