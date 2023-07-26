@@ -83,6 +83,7 @@ class TracimDaemonClient:
                         break
                     event: DaemonEvent = decode_json(data)
                     self.__call_handler(EVENT_TYPE_GENERIC, event)
+                    self.__call_handler(event.type, event)
                     if event.type == DAEMON_TRACIM_EVENT:
                         tlm_data: TLMEvent = decode_json(event.data)
                         self.__call_handler(tlm_data.event_type, event)
