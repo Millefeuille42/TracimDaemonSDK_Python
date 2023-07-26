@@ -1,4 +1,6 @@
+# EVENT_TYPE_GENERIC is the event type for generic events (every DaemonEvent)
 EVENT_TYPE_GENERIC = "custom_message"
+# EVENT_TYPE_ERROR is the event type for errors
 EVENT_TYPE_ERROR = "custom_error"
 
 # ## Client to Daemon events ## #
