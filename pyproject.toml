@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tracim_daemon_sdk"
-version = "1.0.1"
+version = "1.0.3"
 authors = [
   { name="Millefeuille", email="1kfeuille@mlabouri.fr" },
 ]
