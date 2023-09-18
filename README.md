@@ -31,8 +31,8 @@ from tracim_daemon_sdk import TracimDaemonClient
 
 if __name__ == "__main__":
     client = TracimDaemonClient(
-        master_socket_path='/home/mathieu/.config/TracimDaemon/master.sock',
-        client_socket_path='/home/mathieu/PycharmProjects/TracimDaemonSDK_Python/tracim_daemon.sock',
+        master_socket_path='/home/user/.config/TracimDaemon/master.sock',
+        client_socket_path='/home/user/.config/MyApp/tracim_daemon.sock',
     )
     client.create_client_socket()
 ```
@@ -44,8 +44,8 @@ from tracim_daemon_sdk import TracimDaemonClient
 
 if __name__ == "__main__":
     client = TracimDaemonClient(
-        master_socket_path='/home/mathieu/.config/TracimDaemon/master.sock',
-        client_socket_path='/home/mathieu/PycharmProjects/TracimDaemonSDK_Python/tracim_daemon.sock',
+        master_socket_path='/home/user/.config/TracimDaemon/master.sock',
+        client_socket_path='/home/user/.config/MyApp/tracim_daemon.sock',
     )
     client.create_client_socket()
     try:
@@ -71,8 +71,8 @@ def default_event_handler(c: TracimDaemonClient, e: DaemonEvent):
 
 if __name__ == "__main__":
     client = TracimDaemonClient(
-        master_socket_path='/home/mathieu/.config/TracimDaemon/master.sock',
-        client_socket_path='/home/mathieu/PycharmProjects/TracimDaemonSDK_Python/tracim_daemon.sock',
+        master_socket_path='/home/user/.config/TracimDaemon/master.sock',
+        client_socket_path='/home/user/.config/MyApp/tracim_daemon.sock',
     )
     client.create_client_socket()
     try:
